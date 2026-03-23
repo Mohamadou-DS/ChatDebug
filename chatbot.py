@@ -423,7 +423,7 @@ class ChatbotUI:
         """Obtenir une réponse du chatbot avec Gemini API"""
         try:
             # Configuration de l'API Gemini
-            genai.configure(api_key="AIzaSyBimNrb2eYs1gndv-7LqrLy80m5ACP8nwU")
+            genai.configure(api_key="#####")
             
             # Création du modèle
             model = genai.GenerativeModel('gemini-2.0-flash')
